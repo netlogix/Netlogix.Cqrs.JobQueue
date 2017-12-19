@@ -1,0 +1,14 @@
+{
+    "name": "netlogix/cqrs-jobqueue",
+    "type": "neos-package",
+    "description": "Add description here",
+    "require": {
+        "flowpack/jobqueue-common": "*",
+        "netlogix/cqrs": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netlogix\\Cqrs\\JobQueue\\": "Classes"
+        }
+    }
+}
